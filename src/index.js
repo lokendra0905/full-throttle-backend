@@ -21,7 +21,6 @@ app.get("/", async (req, res) => {
 app.use(express.json());
 app.use("/api/user", userRouter);
 app.use("/api/cars", carsRouter);
-// app.use("/project", ProjectRouter);
 
 app.listen(8080, async () => {
   try {
